@@ -11,7 +11,8 @@ class Emoji extends HTMLElement {
       laugh: '🤣',
       wink: '😉',
       love: '😍',
-      money: '🤑'
+      money: '🤑',
+      unicorn: '🦄'
     };
     this.textContent = (name) ? map[name] : '😶';
     this.style.fontSize = `${size}px`;
